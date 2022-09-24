@@ -73,7 +73,7 @@ Hay también escáneres de entornos más amplios y otra solución que parece que
 
 Hay una gran cantidad de dispositivos de RE [*](#realidad-extendida), para organizar mejor, los dividiremos en varios grupos ya que los dispositivos tienden a ser diferentes.
 
-## Dispositivos para RV
+### Dispositivos para RV
 
 Los dispositivos para RV son **H**ead-**M**ounted **D**isplays (HMDs), estos tienen algunas características que nos conviene saber.
 
@@ -108,7 +108,7 @@ Los dispositivos para RV son **H**ead-**M**ounted **D**isplays (HMDs), estos tie
 > * Dos 1440x1600 RGB LCDs a 120Hz
 
 
-## Dispositivos para RA
+### Dispositivos para RA
 
 Para la Realidad Aumentada, tenemos distintos tipos de dispositivos. Los HUDs, los Ologramas, las Gafas Inteligentes y los basados en dispositivos tipo móviles.
 
