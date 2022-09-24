@@ -15,7 +15,7 @@ Para generar dicha recreación, se necesita un software avanzado y diferentes co
 Si necesitemos un software avanzado para crear una de estas 'simples' experiencias como la de visualizar una imagen 360°, es obvio que si queremos ir más allá y permitir la interactividad entre el mundo virtual y nosotros, necesitaremos herramientas especializadas en 3d y muy optimizadas para ejecutar el código en tiempo real. Da la casualidad que los motores de videojuegos son la solución ideal a esta necesidad. Unity en concreto soprta diferentes plugins con los que podemos desarrollar para RV, lo utilizaremos también para esta asignatura.
 
 <p align="center">
-<img src="img/intro_vr.jpg" width="80%" />
+<img src="img/intro_rv.jpg" width="80%" />
 </p>
 
 ## Relidad Aumentada
@@ -71,55 +71,97 @@ Hay también escáneres de entornos más amplios y otra solución que parece que
 
 ## Dispositivos
 
+Hay una gran cantidad de dispositivos de RE [*](#realidad-extendida), para organizar mejor, los dividiremos en varios grupos ya que los dispositivos tienden a ser diferentes.
+
+## Dispositivos para RV
+
+Los dispositivos para RV son **H**ead-**M**ounted **D**isplays (HMDs), estos tienen algunas características que nos conviene saber.
+
+* **Tethered** / **Stand-alone**: Dependerá de si nuestro dispositivo de RV es capáz de renderizar las imágenes por si solo (Stand-alone) o no (Tethered). Los dispositivos Tethered, necesitarán estar conectados a otro dispositivo (ordenador).
 
 
-D
+> Los **D**egrees **o**f **F**reedom (**DoF**) son los grados de libertad que puede tener un objeto (nosotros lo utilizaremos para dispositivos), pueden ser posicionales o rotacionales. Pongamos que tenemos un vaso, si podemos mover el vaso a lo largo del eje 'x', diremos que el vaso tiene un grado de libertad. Si lo podemos mover por el eje 'x' y por el 'y', entonces tendremos 2 grados de libertad. Si además podemos rotar el vaso en el eje 'x', entonces tendremos 3 grados de libertad (posición en eje 'x' e 'y' + rotación en eje 'x').
+>
+> Si sumamos todos los grados de libertad, los posicionales (x, y, z) y los rotacionales (x, y, z), obtendremos un máximo de 6 grados de libertad.
+>
+> <p align="center">
+> <img src="img/dof.jpg" width="50%" />
+> </p>
 
-Tethered / Stand-alone, depending if the generation of the images for each eye is carried out by
-an external device or not. The final performance depends on this, as well as the user's flexibility.
-3DoF or 6DoF, depending is the position of the user is tracked or not. When it is tracked, this
-position can be obtained using external devices or inside-out tracking (cameras in the HMD and
-position calculated processing the changes detected on these cameras ~ SLAM)
-Tracking of external control devices, such as controllers. Normally either one or two (one per
-hand), and generally 6DoF, and a collection of control buttons
+* **3DoF** / **6 DoF**: Dependerá de si la posición del usuario es registrada o no (lo podemos apreciar en la imagen anterior). 
+
+* **Dispositivos de control externo**: Mandos, normalmente con 6DoF y botones. El seguimiento de los mandos puede darse desde el propio dispositivo o desde alguno externo.
+
+* **Resolución**: Resolución de las dos pantallas, esencial para reducir el 'Efecto Mosquitera' (que se puedan ver los píxeles y los huecos entre estos).
+
+* **Campo de visión**: Ángulo que cubre el dispositivo.
+
+* **Latencia**: Tiempo requerido para cambiar la visión del usuario como resultado de un cambio en su posición o orientación. Es un factor muy importante ya que si es demasiado alta, nuestro cerebro detecta una 'incoherencia' entre nuestra posición o orientación y lo que estamos viendo. Esto es causa de mareos y náuseas.
+
+* **Óptica**: Cada fabricante usa unas ópticas distintas, que en combinación con las lentes, dan una experiencia distinta al usuario.
+
+> Según Valve esta configuración para los dispositivos es la que aporta la mejor experiencia al usuario:
+> * Tethered
+> * 6DoF. Seguimieto de los mandos con dispositivo externo.
+> * Campo de visualización grande y alta resolución.
+> * Latencia baja
+> * Dos 1440x1600 RGB LCDs a 120Hz
 
 
+## Dispositivos para RA
 
-Resolution per eye, as the screen resolution of the two displays and essential to avoid the 'screen
-door' effect (when user can see the pixels and the gaps between them)
-- Field of view, and the angle/s of vision covered by the device. Essential for a full immersive
-experience. Quite high in VR and very limited in AR.
-- Latency, as the time required to change user's view as a result of a change in their orientation or
-position. It's one of the critical elements of 'VR/AR sickness' as this latency could be detected by
-our vestibular/optical system, producing an asynchrony between both systems that can produce
-even nauseas. Locomotion control (management of movement of the user in the space) is the
-other element linked to sickness.
-- Optics, each manufacturer uses a specific optics that combined with image deformation when
-the image is rendered in the display, creates the desired stereoscopic effect in the user
+Para la Realidad Aumentada, tenemos distintos tipos de dispositivos. Los HUDs, los Ologramas, las Gafas Inteligentes y los basados en dispositivos tipo móviles.
+
+Los dos primeros mencionados no nos interesan tanto así que simplemente veremos lo que son.
+
+Con HUDs nos refermisos a este tipo de RA que vemos en la imagen de bajo. Nos permiten ver la realidad mientras que nos aportan información. Los encontramos en algunos aviones, para que los pilotos no tengan que desplazar la vista del frente.
+
+<p align="center">
+<img src="img/hud.jpg" width="50%" />
+</p>
+
+Los Ologramas, son un tipo de RA ya que de igual forma vemos la realidad y elementos virtuales. A día de hoy esta tecnología tiene muchos problemas y sigue en fase de desarrollo.
+
+Las Gafas Inteligentes son también un dispositivo de RV, existen dos tipos, las que nos permiten ver a través de ellas y nos muestran información y las que no nos permiten ver a través pero tienen cámaras que nos muestran lo que tenemos delante.
+
+<p align="center">
+<img src="img/glasses_type.jpg" width="80%" />
+</p>
 
 
-1. Introducción
-• Realidad Virtual (RV) y Realidad Aumentada (RA)
-• Realidad Mixta (RM) y Realidad Extendida (RX)
-• Dispositivos
-2. Actualidad de la RV
-• RV y Videojuegos
-• Problemas e Inconvenientes Generales
-3. Proyectos y Justificación
-• Orientación y Posicionamiento
-• Opciones para el Desarrollo en Unity
-• Instalación y Configuración del Entorno en Unity
-4. Proyecto RV
-• Diseño de Niveles
-• Interfaz Gráfica
-• Ejemplo y Testeo
-• Desarrollo de Proyecto
-5. Proyecto RA
-• Creación de Espacios, Realidad y Virtual
-• Dispositivos Específicos
-• Combinación de mundo Real y Virtual
-• Ejemplo y Testeo
-• Desarrollo de Proyecto
-6. Educación y Accesibilidad
-• Aplicaciones Reales, Videojuegos para el Aprendizaje
-• Accesibilidad
+Aquí vemos algunos ejemplos de gafas existentes.
+
+<table align="center">
+
+<tr>
+<th>Hololens 2</th>
+<th>Nreal Light</th>
+<th>Vuzix Blade</th>
+</tr>
+
+<tr>
+<td><img src="img/glasses_example.jpg" width="200" /></td>
+<td><img src="img/glasses_example2.jpg" width="200" /></td>
+<td><img src="img/glasses_example3.jpg" width="200" /></td>
+
+</tr>
+
+</table>
+
+Por último, tenemos una categoría en la que englobamos todos los dispositivos tipo móvil o tablet. Estos son los más populares y existen aplicaciones muy utilizadas que integran Realidad Aumentada, tanto juegos como apps. Como juego más popular tendríamos al Pokémon Go y como aplicación a Instagram, no olvidemos que los filtros son realidad aumentada.
+
+
+<table align="center">
+
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+
+<tr>
+<td><img src="img/ra_example.jpg" width="400" /></td>
+<td><img src="img/ra_example2.jpg" width="400" /></td>
+</tr>
+
+</table>
