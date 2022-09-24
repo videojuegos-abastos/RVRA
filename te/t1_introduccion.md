@@ -23,7 +23,7 @@ La **Realidad Aumentada** es un recurso tecnológico que ofrece experiencias int
 Es decir, que mientras que en la RV estamos sumergidos por completo en un mundo virtual, en la RA, mezclamos elementos virtuales con la realidad física.
 
 <p align="center">
-<img src="img/intro_ra.jpg" width="80%" />
+<img src="img/intro_ra.jpg" width="60%" />
 </p>
 
 La RA tiene muchos ámbitos de aplicación, desde los videojuegos hasta las empresas de logística. Veamos algunos ejemplos.
@@ -39,15 +39,30 @@ Las ideas y posibilidades para la RA son casi infinitas, en este curso, veremos 
 
 
 <p align="center">
-<img src="img/intro_ra_pokemon.jpg" width="80%" />
+<img src="img/intro_ra_pokemon.jpg" width="60%" />
 </p>
 
 
-
-
-
-
 ## Realidad Mixta y Realidad Extendida
+
+A parte de las más conocidas RV y RA, esxisten también otras dos de estas 'realidades'.
+
+En **Realidad Mixta**, lo que hacemos, es también una mezcla entre entornos reales y virtuales pero no como en la RA.
+
+La diferencia es que en la realidad mixta escaneamos o mapeamos de alguna forma un entorno real y lo virtualizamos, de forma que ahora podemo entrar en un entorno virtual que es exactamente igual que este entorno real.
+
+Obviamente, a este entorno virtual, que es una imitación del real, podemos añadirle más elementos virtuales. Es como si escaneáramos nuestra propia habitación, nos pusiéramos las gafas y siguiésemos estando en nuestra habitación, pero ahora, además, hay un yeti en la cama.
+
+<p align="center">
+<img src="img/intro_rm.jpg" width="80%" />
+</p>
+
+Convertir los entornos reales en virtuales no es una tarea sencilla y hay varias formas de hacerlo. Dependiendo de los requisitos que tengamos nos vendrán mejor una u otras.
+
+La forma más simple es directamente modelar el propio entorno, es decir, ir haciendo cada objeto y después montar una escena posicionando cada uno en su sitio. Si quisiérmaos por ejemplo crear un juego o una app que se desarrolla en un entorno muy concreto podríamos hacer esto. Tiene algunas ventajas, como que tenemos más nivel de control sobre la propia escena y que podemos dar diferentes propiedades a los objetos. Por ejemplo podemos hacer que una taza que hay encima de la mesa podamos cojerla pero que no podamos mover la propia mesa.
+
+Existen técnicas más avanzadas que, por lo general, requieren dispositivos y software específico. ESCANNER OBJETOS; IA;
+
 
 ## Dispositivos
 
