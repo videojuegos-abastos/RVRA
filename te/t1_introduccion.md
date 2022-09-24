@@ -1,10 +1,12 @@
 # Introducción
 
-## Realidad Virtual y Realidad Aumentada
+## Realidad Extendida
 
-Aunque hoy en día ya mucha gente sabe qué es la Realidad Virtual, es importante definir algunos conceptos, más que nada porque cuando nos adentremos más en ésta, veremos que hay diferentes nomenclaturas para cosas muy parecidas como Realidad Mixta o Realidad Extendida.
+La **Realidad Extendida**, **RE** o **RX** es simplemente un término que engloba las realidades qye vamos a vert a continuación, la virtual, la aumentada y la mixta.
 
-Veamos primero la Realidad Virtual.
+Aunque hoy en día ya mucha gente sabe qué es la Realidad Extendida, es importante definir algunos conceptos, más que nada porque cuando nos adentremos más en esta, veremos que hay diferentes nomenclaturas para cosas muy parecidas como Realidad Mixta o Realidad Aumentada.
+
+## Realidad Virtual
 
 Definiremos **R**ealidad **V**irtual, en adelante **RV**, como una recreación tridimensional virtual inmersiva de un entorno que nos permite tener la sensación de encontramos realmente dentro de él.
 
@@ -15,6 +17,8 @@ Si necesitemos un software avanzado para crear una de estas 'simples' experienci
 <p align="center">
 <img src="img/intro_vr.jpg" width="80%" />
 </p>
+
+## Relidad Aumentada
 
 Bien, ya sabemos qué es la RV, veamos ahora las diferencias entre esta y la **R**ealidad **A**umentada o **RA**.
 
@@ -36,20 +40,18 @@ La RA tiene muchos ámbitos de aplicación, desde los videojuegos hasta las empr
 
 Las ideas y posibilidades para la RA son casi infinitas, en este curso, veremos cómo desarrollar con esta tecnología para poder hacer nuestras pequeñas apps.
 
-
-
 <p align="center">
 <img src="img/intro_ra_pokemon.jpg" width="60%" />
 </p>
 
 
-## Realidad Mixta y Realidad Extendida
+## Realidad Mixta
 
-A parte de las más conocidas RV y RA, esxisten también otras dos de estas 'realidades'.
+A parte de las más conocidas RV y RA, esxiste también la Realidad Mixta.
 
 En **Realidad Mixta**, lo que hacemos, es también una mezcla entre entornos reales y virtuales pero no como en la RA.
 
-La diferencia es que en la realidad mixta escaneamos o mapeamos de alguna forma un entorno real y lo virtualizamos, de forma que ahora podemo entrar en un entorno virtual que es exactamente igual que este entorno real.
+La diferencia es que en la Realidad Mixta escaneamos o mapeamos de alguna forma un entorno real y lo virtualizamos, de forma que ahora podemos entrar en un entorno virtual que es exactamente igual que este entorno real.
 
 Obviamente, a este entorno virtual, que es una imitación del real, podemos añadirle más elementos virtuales. Es como si escaneáramos nuestra propia habitación, nos pusiéramos las gafas y siguiésemos estando en nuestra habitación, pero ahora, además, hay un yeti en la cama.
 
@@ -61,10 +63,39 @@ Convertir los entornos reales en virtuales no es una tarea sencilla y hay varias
 
 La forma más simple es directamente modelar el propio entorno, es decir, ir haciendo cada objeto y después montar una escena posicionando cada uno en su sitio. Si quisiérmaos por ejemplo crear un juego o una app que se desarrolla en un entorno muy concreto podríamos hacer esto. Tiene algunas ventajas, como que tenemos más nivel de control sobre la propia escena y que podemos dar diferentes propiedades a los objetos. Por ejemplo podemos hacer que una taza que hay encima de la mesa podamos cojerla pero que no podamos mover la propia mesa.
 
-Existen técnicas más avanzadas que, por lo general, requieren dispositivos y software específico. ESCANNER OBJETOS; IA;
+Existen técnicas más avanzadas que, por lo general, requieren dispositivos y software específico.
+Hay dispossitivos capaces de escanear pequeños objetos, en vez de modelarlos podemos escanearlos y al igual que con la técnica de antes, posicionarlos en la escena.
+
+Hay también escáneres de entornos más amplios y otra solución que parece que va ganando terreno es utilizar Inteligencia Artificial para generar esos entornos utilizando imágenes / vídeo.
 
 
 ## Dispositivos
+
+
+
+D
+
+Tethered / Stand-alone, depending if the generation of the images for each eye is carried out by
+an external device or not. The final performance depends on this, as well as the user's flexibility.
+3DoF or 6DoF, depending is the position of the user is tracked or not. When it is tracked, this
+position can be obtained using external devices or inside-out tracking (cameras in the HMD and
+position calculated processing the changes detected on these cameras ~ SLAM)
+Tracking of external control devices, such as controllers. Normally either one or two (one per
+hand), and generally 6DoF, and a collection of control buttons
+
+
+
+Resolution per eye, as the screen resolution of the two displays and essential to avoid the 'screen
+door' effect (when user can see the pixels and the gaps between them)
+- Field of view, and the angle/s of vision covered by the device. Essential for a full immersive
+experience. Quite high in VR and very limited in AR.
+- Latency, as the time required to change user's view as a result of a change in their orientation or
+position. It's one of the critical elements of 'VR/AR sickness' as this latency could be detected by
+our vestibular/optical system, producing an asynchrony between both systems that can produce
+even nauseas. Locomotion control (management of movement of the user in the space) is the
+other element linked to sickness.
+- Optics, each manufacturer uses a specific optics that combined with image deformation when
+the image is rendered in the display, creates the desired stereoscopic effect in the user
 
 
 1. Introducción
