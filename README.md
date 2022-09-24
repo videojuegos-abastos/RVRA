@@ -1,7 +1,7 @@
 # Realidad Virtual y Realidad Aumentada (RVRA)
 
 
-1. Introducción
+1. [Introducción](https://github.com/videojuegos-abastos/RVRA/blob/main/te/t1_introduccion.md)
 
 2. Actualidad de la RV
 
