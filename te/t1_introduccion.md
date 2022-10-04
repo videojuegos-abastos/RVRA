@@ -2,7 +2,7 @@
 
 ## Realidad Extendida
 
-La **Realidad Extendida**, **RE** o **RX** es simplemente un término que engloba las realidades qye vamos a vert a continuación, la virtual, la aumentada y la mixta.
+La **Realidad Extendida**, **RE** o **RX** es simplemente un término que engloba las realidades que vamos a ver a continuación, la virtual, la aumentada y la mixta.
 
 Aunque hoy en día ya mucha gente sabe qué es la Realidad Extendida, es importante definir algunos conceptos, más que nada porque cuando nos adentremos más en esta, veremos que hay diferentes nomenclaturas para cosas muy parecidas como Realidad Mixta o Realidad Aumentada.
 
@@ -12,13 +12,13 @@ Definiremos **R**ealidad **V**irtual, en adelante **RV**, como una recreación t
 
 Para generar dicha recreación, se necesita un software avanzado y diferentes componentes externos. Una de las claves de la RV es la interactividad con el entorno virtual. Una imagen de 360° en la que simplemente visualizamos algo, no lo consideraríamos RV ya que lo único que se puede hacer es mirar.
 
-Si necesitemos un software avanzado para crear una de estas 'simples' experiencias como la de visualizar una imagen 360°, es obvio que si queremos ir más allá y permitir la interactividad entre el mundo virtual y nosotros, necesitaremos herramientas especializadas en 3d y muy optimizadas para ejecutar el código en tiempo real. Da la casualidad que los motores de videojuegos son la solución ideal a esta necesidad. Unity en concreto soprta diferentes plugins con los que podemos desarrollar para RV, lo utilizaremos también para esta asignatura.
+Si necesitemos un software avanzado para crear una de estas 'simples' experiencias como la de visualizar una imagen 360°, es obvio que si queremos ir más allá y permitir la interactividad entre el mundo virtual y nosotros, necesitaremos herramientas especializadas en 3d y muy optimizadas para ejecutar el código en tiempo real. Da la casualidad que los motores de videojuegos son la solución ideal a esta necesidad. Unity en concreto soporta diferentes plug-ins con los que podemos desarrollar para RV, lo utilizaremos también para esta asignatura.
 
 <p align="center">
 <img src="img/intro_rv.jpg" width="80%" />
 </p>
 
-## Relidad Aumentada
+## Realidad Aumentada
 
 Bien, ya sabemos qué es la RV, veamos ahora las diferencias entre esta y la **R**ealidad **A**umentada o **RA**.
 
@@ -47,7 +47,7 @@ Las ideas y posibilidades para la RA son casi infinitas, en este curso, veremos 
 
 ## Realidad Mixta
 
-A parte de las más conocidas RV y RA, esxiste también la Realidad Mixta.
+A parte de las más conocidas RV y RA, existe también la Realidad Mixta.
 
 En **Realidad Mixta**, lo que hacemos, es también una mezcla entre entornos reales y virtuales pero no como en la RA.
 
@@ -61,10 +61,10 @@ Obviamente, a este entorno virtual, que es una imitación del real, podemos aña
 
 Convertir los entornos reales en virtuales no es una tarea sencilla y hay varias formas de hacerlo. Dependiendo de los requisitos que tengamos nos vendrán mejor una u otras.
 
-La forma más simple es directamente modelar el propio entorno, es decir, ir haciendo cada objeto y después montar una escena posicionando cada uno en su sitio. Si quisiérmaos por ejemplo crear un juego o una app que se desarrolla en un entorno muy concreto podríamos hacer esto. Tiene algunas ventajas, como que tenemos más nivel de control sobre la propia escena y que podemos dar diferentes propiedades a los objetos. Por ejemplo podemos hacer que una taza que hay encima de la mesa podamos cojerla pero que no podamos mover la propia mesa.
+La forma más simple es directamente modelar el propio entorno, es decir, ir haciendo cada objeto y después montar una escena posicionando cada uno en su sitio. Si quisiéamos por ejemplo crear un juego o una app que se desarrolla en un entorno muy concreto podríamos hacer esto. Tiene algunas ventajas, como que tenemos más nivel de control sobre la propia escena y que podemos dar diferentes propiedades a los objetos. Por ejemplo podemos hacer que una taza que hay encima de la mesa podamos cogerla pero que no podamos mover la propia mesa.
 
 Existen técnicas más avanzadas que, por lo general, requieren dispositivos y software específico.
-Hay dispossitivos capaces de escanear pequeños objetos, en vez de modelarlos podemos escanearlos y al igual que con la técnica de antes, posicionarlos en la escena.
+Hay dispositivos capaces de escanear pequeños objetos, en vez de modelarlos podemos escanearlos y al igual que con la técnica de antes, posicionarlos en la escena.
 
 Hay también escáneres de entornos más amplios y otra solución que parece que va ganando terreno es utilizar Inteligencia Artificial para generar esos entornos utilizando imágenes / vídeo.
 
@@ -77,7 +77,7 @@ Hay una gran cantidad de dispositivos de RE [*](#realidad-extendida), para organ
 
 Los dispositivos para RV son **H**ead-**M**ounted **D**isplays (HMDs), estos tienen algunas características que nos conviene saber.
 
-* **Tethered** / **Stand-alone**: Dependerá de si nuestro dispositivo de RV es capáz de renderizar las imágenes por si solo (Stand-alone) o no (Tethered). Los dispositivos Tethered, necesitarán estar conectados a otro dispositivo (ordenador).
+* **Tethered** / **Stand-alone**: Dependerá de si nuestro dispositivo de RV es capaz de renderizar las imágenes por si solo (Stand-alone) o no (Tethered). Los dispositivos Tethered, necesitarán estar conectados a otro dispositivo (ordenador).
 
 
 > Los **D**egrees **o**f **F**reedom (**DoF**) son los grados de libertad que puede tener un objeto (nosotros lo utilizaremos para dispositivos), pueden ser posicionales o rotacionales. Pongamos que tenemos un vaso, si podemos mover el vaso a lo largo del eje 'x', diremos que el vaso tiene un grado de libertad. Si lo podemos mover por el eje 'x' y por el 'y', entonces tendremos 2 grados de libertad. Si además podemos rotar el vaso en el eje 'x', entonces tendremos 3 grados de libertad (posición en eje 'x' e 'y' + rotación en eje 'x').
@@ -96,7 +96,7 @@ Los dispositivos para RV son **H**ead-**M**ounted **D**isplays (HMDs), estos tie
 
 * **Campo de visión**: Ángulo que cubre el dispositivo.
 
-* **Latencia**: Tiempo requerido para cambiar la visión del usuario como resultado de un cambio en su posición o orientación. Es un factor muy importante ya que si es demasiado alta, nuestro cerebro detecta una 'incoherencia' entre nuestra posición o orientación y lo que estamos viendo. Esto es causa de mareos y náuseas.
+* **Latencia**: Tiempo requerido para cambiar la visión del usuario como resultado de un cambio en su posición u orientación. Es un factor muy importante ya que si es demasiado alta, nuestro cerebro detecta una 'incoherencia' entre nuestra posición u orientación y lo que estamos viendo. Esto es causa de mareos y náuseas.
 
 * **Óptica**: Cada fabricante usa unas ópticas distintas, que en combinación con las lentes, dan una experiencia distinta al usuario.
 
@@ -110,11 +110,11 @@ Los dispositivos para RV son **H**ead-**M**ounted **D**isplays (HMDs), estos tie
 
 ### Dispositivos para RA
 
-Para la Realidad Aumentada, tenemos distintos tipos de dispositivos. Los HUDs, los Ologramas, las Gafas Inteligentes y los basados en dispositivos tipo móviles.
+Para la Realidad Aumentada, tenemos distintos tipos de dispositivos. Los HUDs, los Hologramas, las Gafas Inteligentes y los basados en dispositivos tipo móviles.
 
 Los dos primeros mencionados no nos interesan tanto así que simplemente veremos lo que son.
 
-Con HUDs nos refermisos a este tipo de RA que vemos en la imagen de bajo. Nos permiten ver la realidad mientras que nos aportan información. Los encontramos en algunos aviones, para que los pilotos no tengan que desplazar la vista del frente.
+Con HUDs nos referimos a este tipo de RA que vemos en la imagen de bajo. Nos permiten ver la realidad mientras que nos aportan información. Los encontramos en algunos aviones, para que los pilotos no tengan que desplazar la vista del frente.
 
 <p align="center">
 <img src="img/hud.jpg" width="50%" />
