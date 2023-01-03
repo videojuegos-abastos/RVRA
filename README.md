@@ -12,3 +12,7 @@
 5. Proyecto RA
 
 6. Educación y Accesibilidad
+
+## Configuración Oculus Quest 2
+
+[PDF Configuración](https://github.com/videojuegos-abastos/RVRA/blob/main/te/configuracion.md)
