@@ -15,4 +15,4 @@
 
 ## Configuración Oculus Quest 2
 
-[PDF Configuración](https://github.com/videojuegos-abastos/RVRA/blob/main/te/configuracion.md)
+[Documento Configuración](https://github.com/videojuegos-abastos/RVRA/blob/main/te/configuracion.md)
