@@ -12,7 +12,7 @@ Aunque hemos explicado lo más básico sobre algunos de estos componentes en cla
 
 ## Proyecto 0: Configuración
 
-Seguiremos el documento de [Configuración RA]()
+Seguiremos el documento de [Configuración RA](https://github.com/videojuegos-abastos/RVRA/blob/main/te/configuracion_ra.md)
 
 
 ## Proyecto 1: Aplicación Muebles
