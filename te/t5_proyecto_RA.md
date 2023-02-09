@@ -17,4 +17,14 @@ Seguiremos el documento de [Configuración RA]()
 
 ## Proyecto 1: Aplicación Muebles
 
-El objetivo de este proyecto es desarrollar una aplicación de Realidad Aumentada para dispositivos Android en la que podamos escojer un mueble y posicionarlo en la habitación. Tendremos que poder mover el mueble, escalarlo y rotarlo.
+El objetivo de este proyecto es desarrollar una aplicación de Realidad Aumentada para dispositivos Android en la que podamos escojer un mueble y posicionarlo en la habitación.
+
+### Requisitos:
+
+* Podremos mover, escalar y rotar el mueble.
+
+* Podremos crear más de un mueble distinto.
+
+* Habrá un boton que al pulsarlo nos indicará hacia dónde mirar para ver el mueble.
+
+* Utilizaremos los eventos que nos proporciona la librería para conseguir algun efecto interesane. (Cambio de color, partículas, cambio de mueble, etc.)
