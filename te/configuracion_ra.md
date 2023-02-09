@@ -17,4 +17,6 @@ Una vez tengamos esto, ahora si en nuestro proyecto podemos cambiar el build tar
 * PS > Other Settings > Target Architecture > ARM64.
 
 * PS > Publishing Settings > Custom Gradle Properties Template: True.
-Al marcar el checkbox nos aparecerá una ruta donde está el fichero de Gradle Properties, en este fichero, que lo podremos abrir como un archivo de texto normal, comentaremos la línea enableR8 con un '#'.
+Al marcar el checkbox nos aparecerá una ruta donde está el fichero de Gradle Properties, en este fichero, que lo podremos abrir como un archivo de texto normal, comentaremos la línea `android.enableR8=**MINIFY_WITH_R_EIGHT**` con un `#`.
+
+* BS > Developement Build: True (Recomendado)
