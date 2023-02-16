@@ -16,3 +16,7 @@
 ## Configuración Oculus Quest 2
 
 [Documento Configuración](https://github.com/videojuegos-abastos/RVRA/blob/main/te/configuracion.md)
+
+## Configuración RA Unity
+
+[Documento Configuración](https://github.com/videojuegos-abastos/RVRA/blob/main/te/configuracion_ra.md)
