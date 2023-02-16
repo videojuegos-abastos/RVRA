@@ -10,6 +10,19 @@ Aunque hemos explicado lo más básico sobre algunos de estos componentes en cla
 
 > A parte del vídeo adjunto existen mucho más, cuantos más vemamos y más claras tengamos las cosas mejor. No olvidemos eso sí que solo viendo vídeos no vamos a saber hacer las cosas, será necesario ponerlas en práctica.
 
+## Tutoriales
+
+[Configuración y requisitos básicos](https://youtu.be/H6d-hagFFNc?t=136).
+
+> Para la configuración, la mayoría de los vídeos no nos van a valer debido a que las versiones pueden ser diferentes o pueden tener algun tiempo. Preferiblemente seguiremos el [Documneto de configuración](https://github.com/videojuegos-abastos/RVRA/blob/main/te/configuracion_ra.md).
+> En cuanto a los requisitos básicos, aunque ya los tenemos con el XR-Interaction-Toolkit configurados, no está de más ver esa parte ya que nos haremos una mejor idea de para qué sirven cada uno y cómo están relacionados entre sí.
+> En el vídeo, en la parte en la que crea los objetos y componentes básicos se olvida del `AR Session`, podemos verlo en el [minuto 11](https://youtu.be/H6d-hagFFNc?t=660).
+
+
+[Selección, Translación, Escalado y Rotación](https://www.youtube.com/watch?v=AGAjUt5Oy6o)
+
+[Anotaciones](https://www.youtube.com/watch?v=hi-zVWJOfxY)
+
 ## Proyecto 0: Configuración
 
 Seguiremos el documento de [Configuración RA](https://github.com/videojuegos-abastos/RVRA/blob/main/te/configuracion_ra.md)
@@ -22,6 +35,8 @@ El objetivo de este proyecto es desarrollar una aplicación de Realidad Aumentad
 ### Requisitos:
 
 * Podremos mover, escalar y rotar el mueble.
+
+* Al mirar hacia el mueble, aparecerá su nombre.
 
 * Podremos crear más de un mueble distinto.
 
